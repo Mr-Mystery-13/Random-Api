@@ -7,12 +7,16 @@
 
 button {
     border-radius: 25vw;
-    background-color: black;
+    background-color: #474747;
     color: white;
     width: 25vw;
     height: 10vw;
     font-size: 2.5vw;
 }
+
+button:hover {
+    background-color: #4747478e;
+}  
 
 #photos {
     display: flex;
