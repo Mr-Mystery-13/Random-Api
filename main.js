@@ -10,7 +10,7 @@ const m = fetch('https://api.imgflip.com/get_memes')
     JMeme = jsonData
 })
 
-const n = fetch('https://random.imagecdn.app/1000/500')
+const n = fetch('https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&page=2&api_key=DEMO_KEY')
 .then(function(response) {
     return response.json();
 })
